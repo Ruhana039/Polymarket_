@@ -1,0 +1,3 @@
+simmer-sdk
+python-dotenv
+requests
