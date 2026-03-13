@@ -1,0 +1,1 @@
+Run: cd /path/to/fast market && python fastloop_trader.py --live --quiet
