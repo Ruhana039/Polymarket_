@@ -1,12 +1,9 @@
 {
-  "$schema": "https://railway.app",
   "build": {
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "src": "python fastloop_trader.py",
-    "restartPolicyType": "ON_FAILURE",
-    "healthCheckPath": "/",
-    "healthCheckTimeout": 100
+    "startCommand": "python fastloop_trader.py"
   }
 }
+
