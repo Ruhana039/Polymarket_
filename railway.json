@@ -1,0 +1,7 @@
+{
+  "engines": {
+    "python": "3.12"
+  },
+  "buildCommand": "pip install -r requirements.txt",
+  "startCommand": "python fastloop_trader.py"
+}
